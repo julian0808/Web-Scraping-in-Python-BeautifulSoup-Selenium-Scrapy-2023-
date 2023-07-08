@@ -1,0 +1,26 @@
+Section10_Project#3_Building_Crawlers_with_Scrap
+
+https://subslikescript.com/movies
+
+Commadans :
+
+scrapy genspider -l
+scrapy genspider -t crawl transcripts subslikescript.com
+
+scrapy crawl transcripts
+
+scrapy crawl transcripts -o transcripts.csv
+
+scrapy crawl transcripts -o transcripts_letter_x.json
+
+scrapy crawl transcripts 
+
+-------------
+
+//article[@class='main-article']/p
+
+//article[@class='main-article']/div[@class='full-script']
+
+
+//a[@rel='next']
+(//a[@rel='next'])[1]

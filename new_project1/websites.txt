@@ -1,0 +1,4 @@
+Scraping ERROR in Python: 'charmap' codec can't encode character / can't concat str to bytes:
+https://stackoverflow.com/questions/51230307/scraping-error-in-python-charmap-codec-cant-encode-character-cant-concat
+
+

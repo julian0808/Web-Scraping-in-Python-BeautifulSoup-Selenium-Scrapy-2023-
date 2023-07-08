@@ -1,0 +1,29 @@
+Section12_Scraping_APIs_&_Login_to_website_with_Scrapy
+
+https://quotes.toscrape.com/scroll
+https://quotes.toscrape.com/login
+
+Commands:
+
+scrapy startproject api_project
+scrapy genspider quotes https://quotes.toscrape.com/scroll
+scrapy crawl quotes
+scrapy crawl quotes -o quotes.json
+
+scrapy crawl quotes -o quotes_pagination.json
+scrapy crawl quotes -o quotes_pagination1.json
+
+username : admin
+password : admin
+
+scrapy genspider quotes_login quotes.toscrape.com/login
+
+scrapy crawl quotes_login
+
+
+-----------------------
+
+//input[@name='csrf_token']/@value
+//a[@herf='/logout']/text()
+
+

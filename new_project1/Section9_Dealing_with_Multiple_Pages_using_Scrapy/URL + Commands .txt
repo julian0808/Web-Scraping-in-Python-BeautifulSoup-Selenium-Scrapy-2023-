@@ -1,0 +1,33 @@
+URL
+https://www.audible.com/search
+https://explore.whatismybrowser.com/useragents/explore/
+
+
+class="adbl-impression-container "
+
+adbl-impression-container
+
+
+//div[contains(@class,'adbl-impression-container')]
+
+//li[@aria-label='Ultra-Processed People']
+
+//div[contains(@class,'adbl-impression-container')]//li[@aria-label='Ultra-Processed People']
+
+//div[contains(@class,'adbl-impression-container')]//li
+
+//li[contains(@class, "authorLabel")]/span/a/
+
+runtimeLabel
+bc-heading
+
+Command:
+
+scrapy shell "https://www.audible.com/search/"
+
+request.headers
+
+User-Agent:
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+
+
